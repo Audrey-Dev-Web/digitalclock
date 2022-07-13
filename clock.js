@@ -42,9 +42,6 @@ function currentTime() {
     setTimeout(currentTime, 1000);
 }
 
-console.log(new Date());
-// console.log(getTimezoneOffset());
-
 function getCurrentDay() {
     if (currentDString === "1") {
         currentDay = "lundi";
